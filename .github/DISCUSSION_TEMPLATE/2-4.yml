@@ -95,25 +95,14 @@ body:
       placeholder: >-
         Please read these guidelines before posting!
         
-        Community Support is considered best effort and there are no guarantees and no SLAs. If you need private, priority, or enterprise support, please consider purchasing support from [Security Onion Solutions](https://securityonionsolutions.com/support).
-        
-        Please review the [Github Community Guidelines](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines).
-        
-        Before posting for help, check the [Help](https://docs.securityonion.net/en/2.3/help.html), [FAQ](https://docs.securityonion.net/en/2.3/faq.html#faq), and other sections of the [documentation](https://docs.securityonion.net/) to see if your question has already been answered there.
-        
+        Community Support is considered best effort and there are no guarantees and no SLAs. If you need private, priority, or enterprise support, please consider purchasing support from Security Onion Solutions (https://securityonionsolutions.com/support).
+        Please review the Github Community Guidelines (https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines).
+        Before posting for help, check the Help (https://docs.securityonion.net/en/2.3/help.html), FAQ (https://docs.securityonion.net/en/2.3/faq.html#faq), and other sections of the documentation (https://docs.securityonion.net/) to see if your question has already been answered there.
         Please be patient, courteous, and respectful. Disrespectful messages can result in being banned.
-        
         Please do not tag an individual in a discussion unless that individual has already volunteered to help you in that discussion.
-        
         When creating your discussion, please put a relevant and descriptive title in the Title field and avoid generic titles like `Help`. When copying text from your Security Onion deployment to the discussion, please copy as plain text when possible rather than taking a screenshot of the text. This allows others to search for and find your text.
-        
         Avoid typing in ALL CAPS as this looks like YELLING!
-        
-        In order to be as effective and efficient as possible, please consider the following when posing your question/problem to the group:
-        http://www.chiark.greenend.org.uk/~sgtatham/bugs.html
-        
         If you need to include a large section of output, please do so as an attached file or Github gist rather than including the output directly in the reply itself. 
-        
         If you attach files, please make sure they are plain text format. No Word docs or PDFs please.
 
     validations:
