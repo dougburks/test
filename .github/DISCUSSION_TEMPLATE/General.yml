@@ -2,7 +2,7 @@ body:
   - type: markdown
     attributes:
       value: >
-        ⚠️ This category is solely for conversations related to Security Onion 2.4⚠️
+        ⚠️ This category is solely for conversations related to Security Onion 2.4 ⚠️
   - type: dropdown
     attributes:
       label: Installation Method
@@ -12,21 +12,19 @@ body:
         - Network installation on Red Hat derivative like Oracle, Rocky, Alma, etc.
         - Network installation on Ubuntu
         - Network installation on Debian
+        - Other (please provide detail)
     validations:
       required: true
   - type: dropdown
     attributes:
       label: Feature Area
       description: >
-        What GitHub product/feature area would you like to discuss? This
-        category is only for conversations related to the below.
-
-        Issues (The feature that allows you to track ideas, feedback, tasks, or bugs for work on GitHub. Not for any issue you are having).
-
-        Projects (For planning and tracking work on GitHub - not any open source or other type of project).
+        Are you asking about installation, configuration, upgrading, or other?
       options:
-        - Issues
-        - Projects
+        - installation
+        - configuration
+        - upgrading
+        - other
     validations:
       required: true
   - type: textarea
