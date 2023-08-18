@@ -129,6 +129,17 @@ body:
         - No (please provide detail below)
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Salt Status
+      description: >
+        Do you get any failures when you run "sudo salt-call state.highstate"?
+      options:
+        -
+        - Yes (please provide detail below)
+        - No, there are no failures
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Detail
