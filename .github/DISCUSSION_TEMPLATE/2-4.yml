@@ -125,8 +125,8 @@ body:
         Does SOC Grid show all services on all nodes as running OK?
       options:
         -
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: textarea
