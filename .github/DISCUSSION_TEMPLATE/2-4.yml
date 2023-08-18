@@ -182,9 +182,5 @@ body:
     attributes:
       label: Guidelines
       options:
-        - label: I have read the above statement and can confirm my post is relevant to
-            the GitHub feature areas
-            [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
-            and/or
-            [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
+        - label: I have read the above statement and can confirm my post is relevant to Security Onion 2.4.
           required: true
