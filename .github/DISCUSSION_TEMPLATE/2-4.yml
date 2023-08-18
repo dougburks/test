@@ -118,6 +118,17 @@ body:
         - more than 10Gbps
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Status
+      description: >
+        Does SOC Grid show all services on all nodes as running OK?
+      options:
+        -
+        - Yes
+        - No
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Detail
