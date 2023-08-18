@@ -54,7 +54,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Description
+      label: Description2
       description: When you installed, did you choose Import, Eval, Standalone, Distributed?
       placeholder: >-
         STOP! This category is only for discussions on GitHub Issues and
