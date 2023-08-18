@@ -17,20 +17,45 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Feature Area
+      label: Description
       description: >
-        Are you asking about installation, configuration, upgrading, or other?
+        Is this discussion about installation, configuration, upgrading, or other?
       options:
         - installation
         - configuration
         - upgrading
-        - other
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Installation Type
+      description: >
+        When you installed, did you choose Import, Eval, Standalone, Distributed?
+      options:
+        - Import
+        - Eval
+        - Standalone
+        - Distributed
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Hardware specs
+      description: >
+        Does your hardware meet or exceed the minimum requirements for your installation type as shown at https://docs.securityonion.net/en/2.4/hardware.html?
+      options:
+        - Meets minimum requirements
+        - Exceeds minimum requirements
+        - Does not meet minimum requirements
+        - other (please provide detail)
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Body
-      description: Start your discussion!
+      label: Installation Type
+      description: When you installed, did you choose Import, Eval, Standalone, Distributed?
       placeholder: >-
         STOP! This category is only for discussions on GitHub Issues and
         GitHub Projects. GitHub Issues are the issues you open in a repo to
