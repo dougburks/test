@@ -2,12 +2,7 @@ body:
   - type: markdown
     attributes:
       value: >
-        ⚠️ This category is solely for conversations related to Security Onion 2.4
-        feature areas
-        [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
-        and
-        [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-        ⚠️
+        ⚠️ This category is solely for conversations related to Security Onion 2.4⚠️
   - type: dropdown
     attributes:
       label: Installation Method
