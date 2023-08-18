@@ -2,7 +2,7 @@ body:
   - type: markdown
     attributes:
       value: >
-        ⚠️ This category is solely for conversations related to the GitHub
+        ⚠️ This category is solely for conversations related to Security Onion 2.4
         feature areas
         [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
         and
@@ -10,14 +10,13 @@ body:
         ⚠️
   - type: dropdown
     attributes:
-      label: Select Topic Area
-      description: What would you like to discuss?
+      label: Installation Method
+      description: How did you install Security Onion?
       options:
-        - Question
-        - Product Feedback
-        - Bug
-        - Show & Tell
-        - General
+        - Security Onion ISO image
+        - Network installation on Red Hat derivative like Oracle, Rocky, Alma, etc.
+        - Network installation on Ubuntu
+        - Network installation on Debian
     validations:
       required: true
   - type: dropdown
