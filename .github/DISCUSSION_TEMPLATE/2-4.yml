@@ -98,7 +98,7 @@ body:
     attributes:
       label: Network Traffic
       description: >
-        Are you experiencing issues monitoring network traffic? If so, are you sniffing from a tap or span port?
+        Are you sniffing network traffic from a tap or span port?
       options:
         -
         - tap
@@ -110,7 +110,7 @@ body:
     attributes:
       label: Network Traffic Speeds
       description: >
-        Are you experiencing issues monitoring network traffic? If so, how much traffic are you monitoring?
+        How much network traffic are you monitoring?
       options:
         -
         - Less than 1Gbps
@@ -126,7 +126,7 @@ body:
       options:
         -
         - Yes, all services on all nodes are running OK
-        - No (please provide detail below)
+        - No, one or more services are failed (please provide detail below)
     validations:
       required: true
   - type: dropdown
@@ -136,7 +136,7 @@ body:
         Do you get any failures when you run "sudo salt-call state.highstate"?
       options:
         -
-        - Yes (please provide detail below)
+        - Yes, there are salt failures (please provide detail below)
         - No, there are no failures
     validations:
       required: true
@@ -147,7 +147,7 @@ body:
         Are there any additional clues in /opt/so/log/?
       options:
         -
-        - Yes (please provide detail below)
+        - Yes, there are additional clues in /opt/so/log/ (please provide detail below)
         - No, there are no additional clues
     validations:
       required: true
