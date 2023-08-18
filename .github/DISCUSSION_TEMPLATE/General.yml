@@ -42,6 +42,18 @@ body:
       required: true
   - type: dropdown
     attributes:
+      label: Location
+      description: >
+        Is this deployment in the cloud, on-prem with Internet access, or airgap?
+      options:
+        - cloud
+        - on-prem with Internet access
+        - airgap
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
       label: Hardware specs
       description: >
         Does your hardware meet or exceed the minimum requirements for your installation type as shown at https://docs.securityonion.net/en/2.4/hardware.html?
