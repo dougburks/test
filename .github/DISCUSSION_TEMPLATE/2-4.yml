@@ -5,6 +5,30 @@ body:
         ⚠️ This category is solely for conversations related to Security Onion 2.4 ⚠️
   - type: dropdown
     attributes:
+      label: Version
+      description: What version of Security Onion are you asking about?
+      options:
+        - 2.4.0
+        - 2.4.1
+        - 2.4.2
+        - 2.4.3
+        - 2.4.4
+        - 2.4.5
+        - 2.4.10
+        - 2.4.20
+        - 2.4.30
+        - 2.4.40
+        - 2.4.50
+        - 2.4.60
+        - 2.4.70
+        - 2.4.80
+        - 2.4.90
+        - 2.4.100
+        - Other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
       label: Installation Method
       description: How did you install Security Onion?
       options:
