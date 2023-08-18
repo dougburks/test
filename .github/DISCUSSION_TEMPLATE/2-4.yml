@@ -140,6 +140,17 @@ body:
         - No, there are no failures
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Logs
+      description: >
+        Are there any additional clues in /opt/so/log/?
+      options:
+        -
+        - Yes (please provide detail below)
+        - No, there are no additional clues
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Detail
