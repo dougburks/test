@@ -96,7 +96,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Network Traffic
+      label: Network Traffic Collection
       description: >
         Are you sniffing network traffic from a tap or span port?
       options:
