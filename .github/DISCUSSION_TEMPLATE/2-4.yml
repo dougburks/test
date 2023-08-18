@@ -33,6 +33,7 @@ body:
       label: Installation Method
       description: How did you install Security Onion?
       options:
+        -
         - Security Onion ISO image
         - Network installation on Red Hat derivative like Oracle, Rocky, Alma, etc.
         - Network installation on Ubuntu
@@ -46,6 +47,7 @@ body:
       description: >
         Is this discussion about installation, configuration, upgrading, or other?
       options:
+        -
         - installation
         - configuration
         - upgrading
@@ -58,6 +60,7 @@ body:
       description: >
         When you installed, did you choose Import, Eval, Standalone, Distributed?
       options:
+        -
         - Import
         - Eval
         - Standalone
@@ -71,6 +74,7 @@ body:
       description: >
         Is this deployment in the cloud, on-prem with Internet access, or airgap?
       options:
+        -
         - cloud
         - on-prem with Internet access
         - airgap
@@ -83,6 +87,7 @@ body:
       description: >
         Does your hardware meet or exceed the minimum requirements for your installation type as shown at https://docs.securityonion.net/en/2.4/hardware.html?
       options:
+        -
         - Meets minimum requirements
         - Exceeds minimum requirements
         - Does not meet minimum requirements
