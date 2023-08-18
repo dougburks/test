@@ -8,6 +8,7 @@ body:
       label: Version
       description: Which version of Security Onion 2.4.x are you asking about?
       options:
+        -
         - 2.4.0
         - 2.4.1
         - 2.4.2
