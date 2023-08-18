@@ -1,0 +1,144 @@
+body:
+  - type: markdown
+    attributes:
+      value: >
+        ⚠️ This category is solely for conversations related to Security Onion 2.4 ⚠️
+  - type: dropdown
+    attributes:
+      label: Installation Method
+      description: How did you install Security Onion?
+      options:
+        - Security Onion ISO image
+        - Network installation on Red Hat derivative like Oracle, Rocky, Alma, etc.
+        - Network installation on Ubuntu
+        - Network installation on Debian
+        - Other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Description
+      description: >
+        Is this discussion about installation, configuration, upgrading, or other?
+      options:
+        - installation
+        - configuration
+        - upgrading
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Installation Type
+      description: >
+        When you installed, did you choose Import, Eval, Standalone, Distributed?
+      options:
+        - Import
+        - Eval
+        - Standalone
+        - Distributed
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Location
+      description: >
+        Is this deployment in the cloud, on-prem with Internet access, or airgap?
+      options:
+        - cloud
+        - on-prem with Internet access
+        - airgap
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Hardware specs
+      description: >
+        Does your hardware meet or exceed the minimum requirements for your installation type as shown at https://docs.securityonion.net/en/2.4/hardware.html?
+      options:
+        - Meets minimum requirements
+        - Exceeds minimum requirements
+        - Does not meet minimum requirements
+        - other (please provide detail)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Detail
+      description: Please read the placeholder and then provide detailed information to help us help you.
+      placeholder: >-
+        Please read these guidelines before posting!
+        
+        Community Support is considered best effort and there are no guarantees and no SLAs. If you need private, priority, or enterprise support, please consider purchasing support from [Security Onion Solutions](https://securityonionsolutions.com/support).
+        
+        Please review the [Github Community Guidelines](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines).
+        
+        **Check Documentation First**
+        Before posting for help, check the [Help](https://docs.securityonion.net/en/2.3/help.html), [FAQ](https://docs.securityonion.net/en/2.3/faq.html#faq), and other sections of the [documentation](https://docs.securityonion.net/) to see if your question has already been answered there.
+        
+        **Etiquette**
+        Please be patient, courteous, and respectful. Disrespectful messages can result in being banned.
+        
+        **Start a new discussion instead of replying to somebody else's discussion**
+        Please search to see if you can find similar discussions that may help you. However, in order to avoid confusion, please do NOT reply to somebody else's discussion with your own issue. Instead, please start a new discussion and in that new discussion you can provide a hyperlink to the related discussion.
+        
+        **Tagging Individuals**
+        Please do not tag an individual in a discussion unless that individual has already volunteered to help you in that discussion.
+        
+        **Make your discussion search friendly**
+        When creating your discussion, please put a relevant and descriptive title in the Title field and avoid generic titles like `Help`. When copying text from your Security Onion deployment to the discussion, please copy as plain text when possible rather than taking a screenshot of the text. This allows others to search for and find your text.
+        
+        **Formatting**
+        Make sure all code blocks, log snippets, and configuration samples are surrounded in triple back ticks to preserve original formatting. It should look like the below shaded area in the preview pane of your post:
+        ```
+        some: value
+        something: else
+        ```
+        
+        **Avoid yelling**
+        Avoid typing in ALL CAPS as this looks like YELLING!
+        
+        **Document resolution for others**
+        If you resolve your own discussion, don't forget to document the resolution for others who may experience the same.
+        
+        **Stay on topic**
+        In order to keep the signal-to-noise ratio as high as possible, this discussion forum should only be used for questions directly relating to Security Onion itself. If you have generic questions about operating systems or networking, you should search the Internet for other forums or relevant information.
+        
+        **Provide sufficient technical info**
+        In order to be as effective and efficient as possible, please consider the following when posing your question/problem to the group:
+        http://www.chiark.greenend.org.uk/~sgtatham/bugs.html
+        
+        Please include the following details where you can:
+        
+        - Security Onion version as seen in the lower left corner of SOC and in `/etc/soversion`.  For example: 2.4.10
+        - Is this a cloud deployment or on-prem? If on-prem, do you have Internet access or this an airgap installation?
+        - Did you install from our Security Onion ISO image or did you perform a network installation?
+        - If network installation, what distro and version did you install on?
+        - How many nodes do you have?
+        - What are the hardware specs of each of those nodes?
+        - How are each of those nodes configured? (ex. manager with 2 search nodes and 3 forward nodes)
+        - Are you experiencing issues monitoring network traffic? If so, are you sniffing from a tap or span port and what is the traffic volume?
+        - Does so-status show all services running?
+        - Do you get any failures when you run `sudo salt-call state.highstate`?
+        - Does the SOC Grid page show any failures?
+        - Explain your issue. For example: Installation fails when I select this series of options...
+        - Provide applicable logs. If you are having problems right after setup, provide `/root/sosetup.log`. If you are having problems during soup, provide `/root/soup.log`. If you are having problems with a specific component, provide that component's logs from `/opt/so/log/`.
+        
+        If you need to include a large section of output, please do so as an attached file or Github gist rather than including the output directly in the reply itself. 
+        
+        If you attach files, please make sure they are plain text format. No Word docs or PDFs please.
+
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Guidelines
+      options:
+        - label: I have read the above statement and can confirm my post is relevant to
+            the GitHub feature areas
+            [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+            and/or
+            [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
+          required: true
