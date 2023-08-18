@@ -25,7 +25,7 @@ body:
         - 2.4.80
         - 2.4.90
         - 2.4.100
-        - Other (please provide detail)
+        - Other (please provide detail below)
     validations:
       required: true
   - type: dropdown
@@ -38,7 +38,7 @@ body:
         - Network installation on Red Hat derivative like Oracle, Rocky, Alma, etc.
         - Network installation on Ubuntu
         - Network installation on Debian
-        - Other (please provide detail)
+        - Other (please provide detail below)
     validations:
       required: true
   - type: dropdown
@@ -51,7 +51,7 @@ body:
         - installation
         - configuration
         - upgrading
-        - other (please provide detail)
+        - other (please provide detail below)
     validations:
       required: true
   - type: dropdown
@@ -65,7 +65,7 @@ body:
         - Eval
         - Standalone
         - Distributed
-        - other (please provide detail)
+        - other (please provide detail below)
     validations:
       required: true
   - type: dropdown
@@ -78,7 +78,7 @@ body:
         - cloud
         - on-prem with Internet access
         - airgap
-        - other (please provide detail)
+        - other (please provide detail below)
     validations:
       required: true
   - type: dropdown
@@ -91,7 +91,31 @@ body:
         - Meets minimum requirements
         - Exceeds minimum requirements
         - Does not meet minimum requirements
-        - other (please provide detail)
+        - other (please provide detail below)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Network Traffic
+      description: >
+        Are you experiencing issues monitoring network traffic? If so, are you sniffing from a tap or span port?
+      options:
+        -
+        - tap
+        - span port
+        - other (please provide detail below)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Network Traffic Speeds
+      description: >
+        Are you experiencing issues monitoring network traffic? If so, how much traffic are you monitoring?
+      options:
+        -
+        - Less than 1Gbps
+        - 1Gbps to 10Gbps
+        - more than 10Gbps
     validations:
       required: true
   - type: textarea
