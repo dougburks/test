@@ -103,14 +103,14 @@ body:
       required: true
   - type: dropdown
     attributes:
-    label: Network Traffic Collection
-    description: >
-      Are you sniffing network traffic from a tap or span port?
-    options:
-      -
-      - tap
-      - span port
-      - other (please provide detail below)
+      label: Network Traffic Collection
+      description: >
+        Are you sniffing network traffic from a tap or span port?
+      options:
+        -
+        - tap
+        - span port
+        - other (please provide detail below)
     validations:
       required: true
   - type: dropdown
