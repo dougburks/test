@@ -97,7 +97,7 @@ body:
   - type: input
     attributes:
       label: CPU
-      description: How much CPU cores do you have?
+      description: How many CPU cores do you have?
     validations:
       required: true
   - type: input
@@ -108,8 +108,14 @@ body:
       required: true
   - type: input
     attributes:
-      label: Storage
-      description: How much storage do you have?
+      label: Storage for /
+      description: How much storage do you have for the / partition?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Storage for /nsm
+      description: How much storage do you have for the /nsm partition?
     validations:
       required: true
   - type: dropdown
