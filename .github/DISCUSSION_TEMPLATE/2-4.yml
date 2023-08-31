@@ -94,6 +94,12 @@ body:
         - other (please provide detail below)
     validations:
       required: true
+  - type: input
+    attributes:
+      label: RAM
+      description: How much RAM do you have?
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Network Traffic Collection
