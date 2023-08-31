@@ -94,7 +94,14 @@ body:
         - other (please provide detail below)
     validations:
       required: true
-  - type: dropdown
+    - type: input
+      id: RAM
+      attributes:
+        label: RAM
+        description: How much RAM?
+      validations:
+        required: true
+    - type: dropdown
     attributes:
       label: Network Traffic Collection
       description: >
