@@ -58,7 +58,7 @@ body:
     attributes:
       label: Installation Type
       description: >
-        When you installed, did you choose Import, Eval, Standalone, Distributed?
+        When you installed, did you choose Import, Eval, Standalone, Distributed, or something else?
       options:
         -
         - Import
@@ -122,7 +122,7 @@ body:
     attributes:
       label: Network Traffic Collection
       description: >
-        Are you sniffing network traffic from a tap or span port?
+        Are you collecting network traffic from a tap or span port?
       options:
         -
         - tap
