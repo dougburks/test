@@ -96,6 +96,12 @@ body:
       required: true
   - type: input
     attributes:
+      label: CPU
+      description: How much CPU cores do you have?
+    validations:
+      required: true
+  - type: input
+    attributes:
       label: RAM
       description: How much RAM do you have?
     validations:
