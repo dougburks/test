@@ -9,12 +9,7 @@ body:
       description: Which version of Security Onion 2.4.x are you asking about?
       options:
         -
-        - 2.4.0
-        - 2.4.1
-        - 2.4.2
-        - 2.4.3
-        - 2.4.4
-        - 2.4.5
+        - 2.4 Pre-release (Beta, Release Candidate)
         - 2.4.10
         - 2.4.20
         - 2.4.30
@@ -206,5 +201,5 @@ body:
     attributes:
       label: Guidelines
       options:
-        - label: I have read the above statement and can confirm my post is relevant to Security Onion 2.4.
+        - label: I have read the above statement and agree to the guidelines.
           required: true
