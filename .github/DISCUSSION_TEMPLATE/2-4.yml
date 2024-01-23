@@ -175,7 +175,7 @@ body:
       label: Detail
       description: Please read the placeholder and then provide detailed information to help us help you.
       placeholder: >-
-        STOP! Please read our discussion guidelines at https://github.com/Security-Onion-Solutions/securityonion/discussions/1720 in their entirety before typing!
+        STOP! Before typing, please read our discussion guidelines at https://github.com/Security-Onion-Solutions/securityonion/discussions/1720 in their entirety!
 
     validations:
       required: true
