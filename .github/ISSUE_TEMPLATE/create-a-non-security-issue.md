@@ -1,6 +1,6 @@
 ---
 name: Create a non-security issue
-about: Describe this issue template's purpose here.
+about: Only choose this if you are reporting a reproducible bug
 title: ''
 labels: ''
 assignees: ''
