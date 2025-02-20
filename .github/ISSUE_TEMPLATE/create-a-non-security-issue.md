@@ -1,5 +1,5 @@
 ---
-name: Custom issue template
+name: Create a non-security issue
 about: Describe this issue template's purpose here.
 title: ''
 labels: ''
